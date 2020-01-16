@@ -9,7 +9,7 @@ class Light {
     }
 
     turnOff() {
-        return this.name + "开启";
+        return this.name + "GB";
     }
 }
 
@@ -23,7 +23,7 @@ class TV {
     }
 
     turnOff() {
-        return this.name + "开启";
+        return this.name + "GB";
     }
 }
 
@@ -37,7 +37,7 @@ class Curtain {
     }
 
     turnOff() {
-        return this.name + "开启";
+        return this.name + "GB";
     }
 }
 
@@ -99,6 +99,3 @@ setTimeout(function() {
     console.log("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
     xiaoAI.goOut()
 }, 5000)
-
-
-

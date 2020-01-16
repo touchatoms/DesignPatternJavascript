@@ -25,11 +25,10 @@ class PastryComponent extends BakeComponent {
     }
 }
 
-class Decorator {
+class Decorator extends BakeComponent {
     constructor(component, name, price) {
+        super(name, price)
         this.component = component
-        this.name = name;
-        this.price = price;
     }
 
     getPrice() {
